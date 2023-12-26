@@ -1,2 +1,2 @@
-# Music_player
-DSA project using C++ that performs various functions like any music application
+# Product Analyzer
+Project using python to analyze the product by comparing reviews across various websites amazon,flipkart
