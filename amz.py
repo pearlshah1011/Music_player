@@ -16,6 +16,7 @@
 from requests_html import HTMLSession
 import json
 import time
+
 #Python is an “object-oriented programming language.” This means that almost all the code is 
 #implemented using a special construct called classes. Programmers use classes to keep related 
 #things together. This is done using the keyword “class,” which is a grouping of object-oriented 
@@ -52,13 +53,15 @@ class Reviews:
             rating_count=rating_count+1
             ratings=ratings+(int(rating[0]))
             
+            
 
 
             data={
                 'rating_count':rating_count,
                 'title':title,
                 'rating':rating,
-                'body':body[:100]
+                'body':body[:100],
+                
                 
                 
             }
